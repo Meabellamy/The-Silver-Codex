@@ -1,0 +1,26 @@
+{
+  "name": "proyecto-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page multi-página desarrollada con arquitectura modular en HTML5, CSS3 y Vanilla JS.",
+  "main": "index.html",
+  "keywords": [
+    "html5",
+    "css3",
+    "vanilla-js",
+    "landing-page",
+    "frontend"
+  ],
+  "author": "Tu Nombre o Empresa",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "lite-server",
+    "format": "prettier --write \"**/*.{html,css,js,md}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {}
+}
