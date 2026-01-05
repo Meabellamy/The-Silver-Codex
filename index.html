@@ -31,10 +31,15 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <section class="header-section-logo">
-            <img src="/assets/icons/logo-large.png" alt="The Silver Codex Logo">
-            <h1>The Silver Codex</h1>
+
+            <a href="index.html" class="header__brand">
+                <svg class="header__logo" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z" fill="currentColor" />
+                </svg>
+            </a>
+            <h1>THE SILVER CODEX</h1>
         </section>
         <nav class="main-navbar-container">
             <ul class="main-navbar-list">
@@ -82,7 +87,7 @@
         </section>
 
         <section class="progress-section">
-            <header>
+            <header class="progress-header">
                 <h3>YOUR PROGRESS</h3>
                 <button class="side-button" id="reset-progress-button">Reset progress</button>
             </header>
@@ -116,7 +121,7 @@
 
         <section class="jaskier-section">
 
-            <header>
+            <header class="jaskier-header">
                 <h3>JASKIERS LIBRARY</h3>
                 <p>Top 5 of today</p>
             </header>
