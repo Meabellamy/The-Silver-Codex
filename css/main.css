@@ -1,0 +1,17 @@
+:root {
+
+    --background-color: #233648;
+    --primary-color: #137fec;
+    --light-blue: #3d9df0;
+    --hover-blue: #5caef3;
+    --titles-color: #f6f7f8;
+    --text-color: #101922;
+    --success-color: #10b981;
+    --warning-color: #f59e0b;
+    --error-color: #ef4444;
+    --placeholder-color: #8b9aa8;
+    --input-background: #e8ecf0;
+    --border-color: #d1dae3;
+    --accent-purple: #8b5cf6;
+    --my-font: font-family: "Google Sans", sans-serif;
+}
